@@ -1,0 +1,453 @@
+.active {
+  background-color: #610000;
+}
+
+.admin-role {
+  color: #f6a12a;
+}
+
+.author-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.author-box > a {
+  text-decoration: none;
+  color: #e7e7e7;
+}
+
+.banned-role {
+  color: black;
+}
+
+.box-item {
+  color: #e7e7e7;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid #1c385b;
+}
+
+.category {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 680px;
+}
+
+.category > button {
+  width: 105px;
+  height: 50px;
+  font-size: medium;
+  background-color: #7a0000;
+  color: #e7e7e7;
+  border: none;
+  border-radius: 5px;
+}
+
+.category > button:hover {
+  background-color: #610000;
+  cursor: pointer;
+}
+
+.category > button.active {
+  background-color: #360101;
+}
+
+.checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.checkbox input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+}
+
+.comment-box {
+  width: 680px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #1c385b;
+  border-radius: 5px;
+}
+
+.comment-buttons {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.comment-buttons > button {
+  color: #e7e7e7;
+  width: 80px;
+  height: 30px;
+  background-color: #7a0000;
+  border-radius: 5px;
+  border: none;
+}
+
+.comment-buttons > button:hover {
+  background-color: #610000;
+  cursor: pointer;
+}
+
+.comment-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.comment-form > input {
+  font-size: medium;
+  width: 420px;
+}
+
+.comment-form > button {
+  color: #e7e7e7;
+  width: 80px;
+  height: 40px;
+  background-color: #7e9bc3;
+  border-radius: 5px;
+  border: none;
+}
+
+.comment-form > button:hover {
+  background-color: #6a89b6;
+  cursor: pointer;
+}
+
+.comment-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.comment-item {
+  color: #e7e7e7;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comment-item > a {
+  text-decoration: none;
+  color: #e7e7e7;
+}
+
+.content-box {
+  background-color: #173255;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content-box > button {
+  font-size: large;
+  background-color: #7e9bc3;
+  color: #e7e7e7;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+}
+
+.content-box > button:hover {
+  background-color: #6a89b6;
+  cursor: pointer;
+}
+
+.filter-form {
+  width: 660px;
+}
+
+.filter-form > form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 680px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.flex-row > button {
+  font-size: large;
+  background-color: #7a0000;
+  color: #e7e7e7;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+}
+
+.flex-row > button:hover {
+  background-color: #610000;
+  cursor: pointer;
+}
+
+form {
+  font-size: large;
+  color: #e7e7e7;
+}
+
+form > a {
+  color: #e7e7e7;
+  text-decoration: underline;
+  margin: 10px;
+}
+
+form > input, form select {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 600px;
+  height: 30px;
+  font-size: large;
+}
+
+.main {
+  padding-top: 10px;
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.meme-box {
+  width: 680px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.meme-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.meme-buttons > button {
+  width: 150px;
+  height: 40px;
+  background-color: #7a0000;
+  color: #e7e7e7;
+  border: none;
+  border-radius: 5px;
+}
+
+.meme-buttons > button:hover {
+  background-color: #610000;
+  cursor: pointer;
+}
+
+.meme-image {
+  max-width: 660px;
+  padding: 10px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #7e9bc3;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar > a {
+  width: 150px;
+  height: 60px;
+  background-color: #173255;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #e7e7e7;
+}
+
+.navbar-panel {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #e7e7e7;
+  background-color: #173255;
+  border-radius: 5px;
+}
+
+.navbar-panel > button {
+  color: #e7e7e7;
+  background-color: #7a0000;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.navbar-panel > button:hover {
+  background-color: #610000;
+  cursor: pointer;
+}
+
+.shares {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  width: 150px;
+  padding-top: 3px;
+}
+
+.sort-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sort-buttons > button {
+  width: 100px;
+  height: 40px;
+  background-color: #7a0000;
+  color: #e7e7e7;
+  border: none;
+  border-radius: 5px;
+}
+
+.sort-buttons > button:hover {
+  background-color: #610000;
+  cursor: pointer;
+}
+
+.sort-buttons > button.active {
+  background-color: #360101;
+}
+
+.user-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+.weather {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=app.css.map */

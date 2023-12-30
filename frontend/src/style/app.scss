@@ -1,0 +1,339 @@
+$navbar-color: rgb(126, 155, 195);
+$navbar-hover: rgb(106, 137, 182);
+$button-color: rgb(122, 0, 0);
+$button-hover: rgb(97, 0, 0);
+$button-active: rgb(54, 1, 1);
+$font-color: rgb(231, 231, 231);
+$content-background: rgb(23, 50, 85);
+$content-border: rgb(28, 56, 91);
+
+$admin-color: rgb(246, 161, 42);
+$banned-color: rgb(0, 0, 0);
+
+.active {
+  background-color: $button-hover;
+}
+
+.admin-role {
+  color: $admin-color;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  > a {
+    text-decoration: none;
+    color: $font-color;
+  }
+}
+
+.banned-role {
+  color: $banned-color;
+}
+
+.box-item {
+  color: $font-color;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid $content-border;
+}
+
+.category {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 680px;
+  > button {
+    width: 105px;
+    height: 50px;
+    font-size: medium;
+    background-color: $button-color;
+    color: $font-color;
+    border: none;
+    border-radius: 5px;
+    &:hover {
+      background-color: $button-hover;
+      cursor: pointer;
+    }
+    &.active {
+      background-color: $button-active;
+    }
+  }
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  & input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.comment-box {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: $content-border;
+  border-radius: 5px;
+}
+
+.comment-buttons {
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  > button {
+    color: $font-color;
+    width: 80px;
+    height: 30px;
+    background-color: $button-color;
+    border-radius: 5px;
+    border: none;
+    &:hover {
+      background-color: $button-hover;
+      cursor: pointer;
+    }
+  }
+}
+
+.comment-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  > input {
+    font-size: medium;
+    width: 420px;
+  }
+  > button {
+    color: $font-color;
+    width: 80px;
+    height: 40px;
+    background-color: $navbar-color;
+    border-radius: 5px;
+    border: none;
+    &:hover {
+      background-color: $navbar-hover;
+      cursor: pointer;
+    }
+  }
+}
+
+.comment-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.comment-item {
+  color: $font-color;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  > a {
+    text-decoration: none;
+    color: $font-color;
+  }
+}
+
+.content-box {
+  background-color: $content-background;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  > button {
+    font-size: large;
+    background-color: $navbar-color;
+    color: $font-color;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    &:hover {
+      background-color: $navbar-hover;
+      cursor: pointer;
+    }
+  }
+}
+
+.filter-form {
+  width: 660px;
+  > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.flex-row {
+  display: flex;
+  width: 680px;
+  justify-content: space-evenly;
+  > button {
+    font-size: large;
+    background-color: $button-color;
+    color: $font-color;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    &:hover {
+      background-color: $button-hover;
+      cursor: pointer;
+    }
+  }
+}
+
+form {
+  font-size: large;
+  color: $font-color;
+  > a{
+    color: $font-color;
+    text-decoration: underline;
+    margin: 10px;
+  }
+  > input, select {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 30px;
+    font-size: large;
+  }
+}
+
+.main {
+  padding-top: 10px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.meme-box {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.meme-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  > button {
+    width: 150px;
+    height: 40px;
+    background-color: $button-color;
+    color: $font-color;
+    border: none;
+    border-radius: 5px;
+    &:hover {
+      background-color: $button-hover;
+      cursor: pointer;
+    }
+  }
+}
+
+.meme-image {
+  max-width: 660px;
+  padding: 10px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $navbar-color;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  > a {
+    width: 150px;
+    height: 60px;
+    background-color: $content-background;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: $font-color;
+  }
+}
+
+.navbar-panel {
+  width: fit-content;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: $font-color;
+  background-color: $content-background;
+  border-radius: 5px;
+  > button {
+    color: $font-color;
+    background-color: $button-color;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    &:hover {
+      background-color: $button-hover;
+      cursor: pointer;
+    }
+  }
+}
+
+.shares {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  width: 150px;
+  padding-top: 3px;
+}
+
+.sort-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  > button {
+    width: 100px;
+    height: 40px;
+    background-color: $button-color;
+    color: $font-color;
+    border: none;
+    border-radius: 5px;
+    &:hover {
+      background-color: $button-hover;
+      cursor: pointer;
+    }
+    &.active {
+      background-color: $button-active;
+    }
+  }
+}
+
+.user-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+.weather {
+  margin-right: 10px;
+}
